@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            background-image: url('https://img.tukuppt.com/bg_grid/00/09/50/qUPZghSJ5F.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        input[type=text] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+            text-align: center;
+        }
+
+        input[type=submit] {
+            width: 50%;
+            background-color: green;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+            text-align: center;
+
+
+        }
+
+        input[type=Password] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+            text-align: center;
+        }
+
+        input[type=email] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+            text-align: center;
+        }
+
+        .test {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="font-family:cursive;color: white;font-size: 50px">Register</h1>
+    <form action="/action_page.php">
+        <div class="test">
+            <input style="font-family:verdana;font-size: 20px" type="text" placeholder="Enter Your First name"
+                id="fname" name="fname" required ; autofocus>
+        </div>
+
+        <div class="test">
+            <input style="font-family:verdana;font-size: 20px" type="text" placeholder="Enter Your Last name" id="lname"
+                name="lname" required>
+        </div>
+
+        <div class="test">
+            <input style="font-family:verdana;font-size: 20px" type="email" placeholder="Enter Your Valid Email"
+                id="Email" name="Email" required>
+        </div>
+
+        <div class="test">
+            <input style="font-family:verdana;font-size: 20px" type="Password" placeholder="Enter Your Password"
+                id="Password" name="Password" required>
+        </div>
+
+        <div class="test">
+            <input style="font-family:verdana;font-size: 20px" type="Password" placeholder="Enter Your Password Again"
+                id="Confirm Password" name="Confirm Password" required>
+        </div>
+
+        <div class="test">
+            <label style="font-family:verdana" for="Choose Your Gender">Choose Your Gender</label>
+
+        </div>
+
+        <div class="test">
+            <input style="font-family:verdana" type="radio" id="Male" name="gender" value="Male">
+            <label for="Male"> Male </label>
+
+            <input style="font-family:verdana" type="radio" id="Female" name="gender" value="Female">
+            <label for="Female"> Female </label>
+
+            <input style="font-family:verdana" type="radio" id="Others" name="gender" value="Others">
+            <label for="Others"> Others </label><br>
+        </div>
+
+        <div class="test">
+            <input style="font-family:verdana;font-size: 20px" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
